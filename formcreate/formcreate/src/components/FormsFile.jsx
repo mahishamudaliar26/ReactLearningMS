@@ -10,7 +10,6 @@ function FormsFile() {
       ...prevValues,
       [name]: value,
     }));
-    // setSubmittedValues([]);
   };
 
   const handleSubmit = () => {
